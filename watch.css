@@ -1,0 +1,39 @@
+/* Watch Image From https://www.anthonyboyd.graphics/mockups/2017/realistic-apple-watch-series-2-mockup-vol-3/ */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #ccc;
+  transition: all 1s ease;
+}
+.watch {
+  width: 402px;
+  height: 522px;
+  background: url(img/watch.png);
+  margin: 0 auto;
+  padding: 193px 0px;
+  font-size: 4.8em;
+  color: #fff;
+  line-height: .85em;
+}
+.watch-face {
+  width: 172px;
+  margin: 0 auto;
+  height: 200px;
+  overflow: hidden;
+  text-align: right;
+}
+.watch-face span{
+  display:block;
+}
+.hours::after {
+  content:":";
+}
+.secs {
+  font-size:.5em;
+  margin-top: -15px;
+  color: #353535;
+}
